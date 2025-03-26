@@ -1,0 +1,15 @@
+# Ignore all files and folders starting with ".", except a few exceptions
+.*
+!.mvn/
+!.gitignore
+!.gitattributes
+!.github/
+!.default.docker.env
+
+# Ignore generated files
+target
+bin
+dependency-reduced-pom.xml
+
+# Ignore IDE files
+*.iml
