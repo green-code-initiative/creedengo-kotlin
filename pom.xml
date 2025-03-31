@@ -73,7 +73,7 @@
 
         <!-- Version of creedengo rules specifications implemented by this plugin -->
 <!--        <creedengo-rules-specifications.version>2.2.2</creedengo-rules-specifications.version>-->
-        <creedengo-rules-specifications.version>main-SNAPSHOT</creedengo-rules-specifications.version>
+        <creedengo-rules-specifications.version>KOTLIN-TEST-SNAPSHOT</creedengo-rules-specifications.version>
 
     </properties>
 
@@ -117,8 +117,8 @@
         <dependency>
             <groupId>org.sonarsource.java</groupId>
             <artifactId>java-checks-testkit</artifactId>
-            <version>${sonarkotlin.version}</version>
-            <scope>test</scope>
+            <version>8.11.0.38440</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
